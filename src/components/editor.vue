@@ -1,6 +1,28 @@
 <script setup lang="ts">
 import StarterKit from "@tiptap/starter-kit";
 import { EditorContent, useEditor } from '@tiptap/vue-3';
+//  获取 prosemirror 内部API
+// import { EditorState } from "@tiptap/pm/state";
+// EditorState.create()
+// tiptap 内部封装好了， 支持以下包的获取，省的一个一个下包了
+// @tiptap/pm/changeset
+// @tiptap/pm/collab
+// @tiptap/pm/commands
+// @tiptap/pm/dropcursor
+// @tiptap/pm/gapcursor
+// @tiptap/pm/history
+// @tiptap/pm/inputrules
+// @tiptap/pm/keymap
+// @tiptap/pm/markdown
+// @tiptap/pm/menu
+// @tiptap/pm/model
+// @tiptap/pm/schema-basic
+// @tiptap/pm/schema-list
+// @tiptap/pm/state
+// @tiptap/pm/tables
+// @tiptap/pm/trailing-node
+// @tiptap/pm/transform
+// @tiptap/pm/view
 
 const editor = useEditor({
   content:'<p>hello world</p>', // 设置初始内容

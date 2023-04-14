@@ -1,6 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@tiptap/extension-bubble-menu': ^2.0.3
+  '@tiptap/extension-highlight': ^2.0.3
+  '@tiptap/extension-text-align': ^2.0.3
   '@tiptap/pm': ^2.0.3
   '@tiptap/starter-kit': ^2.0.3
   '@tiptap/vue-3': ^2.0.3
@@ -11,6 +14,9 @@ specifiers:
   vue-tsc: ^1.2.0
 
 dependencies:
+  '@tiptap/extension-bubble-menu': 2.0.3_@tiptap+pm@2.0.3
+  '@tiptap/extension-highlight': 2.0.3
+  '@tiptap/extension-text-align': 2.0.3
   '@tiptap/pm': 2.0.3
   '@tiptap/starter-kit': 2.0.3_@tiptap+pm@2.0.3
   '@tiptap/vue-3': 2.0.3_iaujswbcmp74wmivgn5zoppjoa
@@ -406,6 +412,12 @@ packages:
       '@tiptap/core': 2.0.3_@tiptap+pm@2.0.3
     dev: false
 
+  /@tiptap/extension-highlight/2.0.3:
+    resolution: {integrity: sha512-NrtibY8cZkIjZMQuHRrKd4php+plOvAoSo8g3uVFu275I/Ixt5HqJ53R4voCXs8W8BOBRs2HS2QX8Cjh79XhtA==}
+    peerDependencies:
+      '@tiptap/core': ^2.0.0
+    dev: false
+
   /@tiptap/extension-history/2.0.3_7qxxgdyo6i4mk7xrbxa2xtsga4:
     resolution: {integrity: sha512-00KHIcJ8kivn2ARI6NQYphv2LfllVCXViHGm0EhzDW6NQxCrriJKE3tKDcTFCu7LlC5doMpq9Z6KXdljc4oVeQ==}
     peerDependencies:
@@ -464,6 +476,12 @@ packages:
       '@tiptap/core': ^2.0.0
     dependencies:
       '@tiptap/core': 2.0.3_@tiptap+pm@2.0.3
+    dev: false
+
+  /@tiptap/extension-text-align/2.0.3:
+    resolution: {integrity: sha512-VlLgqncKdjMjVjbU60/ALYhFs0wUdjAyvjDXnH1OoM/HuzbILvufPMYz4DUieJIWVJOYUKHQgg4XwBWceAM2Tw==}
+    peerDependencies:
+      '@tiptap/core': ^2.0.0
     dev: false
 
   /@tiptap/extension-text/2.0.3_@tiptap+core@2.0.3:
